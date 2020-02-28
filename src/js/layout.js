@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
-import { Demo } from "./views/demo";
-import { Single } from "./views/single";
+import { Skills } from "./views/skills";
+import { Projects } from "./views/projects";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
@@ -17,14 +17,14 @@ export const Layout = () => {
 	const basename = process.env.BASENAME || "";
 
 	return (
-		<div className="d-flex flex-column h-100">
+		<div className="d-flex flex-column">
 			<BrowserRouter>
 				<ScrollToTop>
 					<Navbar />
 					<Switch>
 						<Route exact path="/" component={Home} />
-						<Route path="/demo" component={Demo} />
-						<Route path="/single/:theid" component={Single} />
+						<Route path="/skills" component={Skills} />
+						<Route path="/projects" component={Projects} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 					<Footer />
