@@ -10,7 +10,7 @@ export const Navbar = () => {
 			<nav className="navbar navbar-expand-lg navbar-light bg-light">
 				<div className="website-logo nav-item">
 					<Link to={"/"} className="" href="">
-						<img src="https://i.imgur.com/KK3xtxv.png" className="website-logo-icon" />
+						<img className="website-logo-icon" src="https://i.imgur.com/KK3xtxv.png" />
 					</Link>
 				</div>
 				<button
