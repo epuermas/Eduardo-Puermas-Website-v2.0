@@ -6,6 +6,7 @@ import { Context } from "../store/appContext";
 export const Home = () => {
 	return (
 		<div className="home-container">
+			{/* Left side text */}
 			<div className="home-lcontainer d-flex justify-content-center">
 				<div className="home-ltext">
 					<h1 className="home-h1">Hello, my name is Eddy</h1>
@@ -16,6 +17,7 @@ export const Home = () => {
 						in a team environmnt
 					</h4>
 				</div>
+				{/* Right side img */}
 				<div className="home-rcontainer" />
 				<div className="home-rlimg">
 					<img className="home-img" src="https://www.webvillage.in/assets/img/about.gif" />
