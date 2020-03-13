@@ -19,13 +19,13 @@ export const Navbar = () => {
 					data-toggle="collapse"
 					data-target="#navbarTogglerDemo02"
 					aria-controls="navbarTogglerDemo02"
-					aria-expanded="false"
+					aria-expanded="true"
 					aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon" />
 				</button>
 
 				<div className="collapse navbar-collapse">
-					<ul className="navbar-nav  mt-lg-0">
+					<ul className="navbar-nav">
 						<li className="nav-item">
 							<Link to={"/skills"} className="nav-link" href="">
 								Skills
