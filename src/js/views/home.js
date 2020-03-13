@@ -19,14 +19,23 @@ export const Home = () => {
 					</h4>
 					<div className="home-lsocial">
 						<i
-							className="fab fa-github"
+							className="fab fa-github-square"
 							href="https://github.com/epuermas"
+							id="github"
 							target="_blank"
 							rel="noopener noreferrer"
 						/>
 						<i
 							className="fab fa-linkedin"
 							href="https://www.linkedin.com/in/epuermas/"
+							id="linkedin"
+							target="_blank"
+							rel="noopener noreferrer"
+						/>
+						<i
+							className="fab fa-facebook-square"
+							href="https://www.facebook.com/HeartagramEd"
+							id="facebook"
 							target="_blank"
 							rel="noopener noreferrer"
 						/>

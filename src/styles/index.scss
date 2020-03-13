@@ -1,7 +1,23 @@
 // NAVBAR
+.navbar{
+    margin-top: 10px;
+}
+
+.navbar-nav {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 15pt;
+}
+.nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
 .website-logo-icon{
-    max-width: 60px;
+    max-width: 80px;
     max-height: auto;
+    padding-top: 10px;
 }
 .navbar {
     color: white;
@@ -14,6 +30,17 @@
 .home-lsocial {
     margin-left: 3%;
     font-size: 30pt;
+}
+#github {
+    padding-right: 2%;
+}
+#linkedin {
+    padding-right: 2%;
+    color: #0077B5;
+}
+#facebook {
+    padding-right: 2%;
+    color: #4267B2;
 }
 .home-h1 {
     font-size: 65px;
