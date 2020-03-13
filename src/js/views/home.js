@@ -39,6 +39,13 @@ export const Home = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						/>
+						<i
+							className="fab fa-instagram-square"
+							href="http://instagram.com/eddy_prms"
+							id="instagram"
+							target="_blank"
+							rel="noopener noreferrer"
+						/>
 					</div>
 				</div>
 				{/* Right side img */}
