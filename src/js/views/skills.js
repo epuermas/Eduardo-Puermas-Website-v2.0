@@ -5,8 +5,17 @@ import { Context } from "../store/appContext";
 export const Skills = () => {
 	return (
 		<div className="skills-container">
-			{/* Right side text */}
 			<div className="skills-rcontainer d-flex justify-content-center">
+				{/* Left side img */}
+				<div className="skills-lcontainer">
+					<div className="skills-llimg">
+						<img
+							className="skills-img"
+							src="https://lh3.googleusercontent.com/proxy/m-wEp-f1hVsMyDUtkVeYUEtILc1H4GRfLioef7MBTyQ9mJj8HDESKMnmW_XSbRtyOmxhpzXislUAP3iHRYdARg"
+						/>
+					</div>
+				</div>
+				{/* Right side text */}
 				<div className="skills-rtext">
 					<h1 className="skills-h1">Hello, my name is Eddy</h1>
 					<h4 className="skills-h2">
@@ -16,12 +25,6 @@ export const Skills = () => {
 						Excited about opportunities where experience can best be leveraged towards working on projects
 						in a team environmnt
 					</h4>
-				</div>
-				{/* Left side img */}
-				<div className="skills-lcontainer">
-					<div className="skills-llimg">
-						<img className="skills-img" src="https://www.webvillage.in/assets/img/about.gif" />
-					</div>
 				</div>
 			</div>
 		</div>
