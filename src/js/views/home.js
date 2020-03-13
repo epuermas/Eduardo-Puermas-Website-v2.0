@@ -2,6 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
+import { Skills } from "./skills";
 
 export const Home = () => {
 	return (
@@ -55,6 +56,7 @@ export const Home = () => {
 					</div>
 				</div>
 			</div>
+			<Skills />
 		</div>
 	);
 };
