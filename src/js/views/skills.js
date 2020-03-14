@@ -8,10 +8,10 @@ export const Skills = () => {
 			<div className="skills-rcontainer d-flex justify-content-center">
 				{/* Left side img */}
 				<div className="skills-lcontainer">
-					<div className="skills-llimg">
+					<div className="skills-limg">
 						<img
 							className="skills-img"
-							src="https://lh3.googleusercontent.com/proxy/m-wEp-f1hVsMyDUtkVeYUEtILc1H4GRfLioef7MBTyQ9mJj8HDESKMnmW_XSbRtyOmxhpzXislUAP3iHRYdARg"
+							src="https://hiigher.co/wp-content/uploads/2018/09/Animation-min.gif"
 						/>
 					</div>
 				</div>
