@@ -53,7 +53,7 @@ export const Home = () => {
 							rel="noopener noreferrer"
 						/>
 						<br />
-						<Button variant="btn btn-primary btn-lg" onClick={handleShow}>
+						<Button variant="btn btn-primary btn-lg" onClick={handleShow} id="resume-button">
 							View Resume
 						</Button>
 
