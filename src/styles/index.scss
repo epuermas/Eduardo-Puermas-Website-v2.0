@@ -68,16 +68,153 @@
 }
 // SKILLS
 .skills-img {
-    max-width: 85%;
     margin-top: 2%;
 }
 .skills-h1 {
-    font-size: 45px;
+    font-size: 35px;
     margin-left: 3%;
     margin-bottom: 2%;
 }
 .skills-h2 {
-    font-size: 25px;
+    font-size: 22px;
     margin-left: 3%;
     color: grey;
+}
+.skills-h2-bottom1 {
+    font-size: 22px;
+    margin-left: 3%;
+    color: grey;
+}
+.skills-h2-bottom2 {
+    font-size: 22px;
+    margin-left: 3%;
+    color: grey;
+}
+.skills-h2-bottom3 {
+    font-size: 22px;
+    margin-left: 3%;
+    color: grey;
+}
+.skills-rtext {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.skills-languages-top{
+    max-height: 100px;
+}
+.html5 {
+    max-height:75px;
+    margin-left: 25px;
+    margin-right: 25px;
+    opacity: 0.5;
+}
+.html5:hover {
+    opacity: 1.0;
+}
+.css3 {
+    max-height:75px;
+    margin-left: 25px;
+    margin-right: 25px;
+    opacity: 0.5;
+}
+.css3:hover {
+    opacity: 1.0;
+}
+.js {
+    max-height:75px;
+    margin-left: 25px;
+    margin-right: 25px;
+    opacity: 0.5;
+}
+.js:hover {
+    opacity: 1.0;
+}
+.bootstrap {
+    max-height:100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 0.5;
+}
+.bootstrap:hover {
+    opacity: 1.0;
+}
+.react {
+    max-height:100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+.react:hover {
+    opacity: 1.0;
+}
+.restapi {
+    max-height:100px;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+.restapi:hover {
+    opacity: 1.0;
+}
+.postman {
+    max-height:100px;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+.postman:hover {
+    opacity: 1.0;
+}
+.github {
+    max-height:75px;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 27px;
+    opacity: 0.5;
+}
+.github:hover {
+    opacity: 1.0;
+}
+.python {
+    max-height:95px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 27px;
+    opacity: 0.5;
+}
+.python:hover {
+    opacity: 1.0;
+}
+.nodejs {
+    max-height:100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+.nodejs:hover {
+    opacity: 1.0;
+}
+.mysql {
+    max-height:90px;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-top: 27px;
+    opacity: 0.5;
+}
+.mysql:hover {
+    opacity: 1.0;
+}
+.flask {
+    max-height:75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    opacity: 0.5;
+}
+.flask:hover {
+    opacity: 1.0;
 }
