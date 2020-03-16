@@ -9,15 +9,12 @@ export const Skills = () => {
 				{/* Left side img */}
 				<div className="skills-lcontainer">
 					<div className="skills-limg">
-						<img
-							className="skills-img"
-							src="https://hiigher.co/wp-content/uploads/2018/09/Animation-min.gif"
-						/>
+						<img className="skills-img" src="https://i.imgur.com/IzHZHkK.gif" />
 					</div>
 				</div>
 				{/* Right side text */}
 				<div className="skills-rtext">
-					<h1 className="skills-h1">Hello, my name is Eddy</h1>
+					<h1 className="skills-h1">What I do</h1>
 					<h4 className="skills-h2">
 						Dedicated web developer constantly learning <br /> and using the latest front-end and back-end
 						technologies. <br />

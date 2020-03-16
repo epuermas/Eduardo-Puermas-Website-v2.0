@@ -3,14 +3,19 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
 import { Skills } from "./skills";
+import { Modal, Button } from "react-bootstrap";
 
 export const Home = () => {
+	const [lgShow, setLgShow] = useState(false);
+	const [show, setShow] = useState(false);
+	const handleClose = () => setShow(false);
+	const handleShow = () => setShow(true);
 	return (
 		<div className="home-container">
 			{/* Left side text */}
 			<div className="home-lcontainer d-flex justify-content-center">
 				<div className="home-ltext">
-					<h1 className="home-h1">Hello, my name is Eddy</h1>
+					<h1 className="home-h1">Hello, my name is Eddy 👋🏻</h1>
 					<h4 className="home-h2">
 						Dedicated web developer constantly learning <br /> and using the latest front-end and back-end
 						technologies. <br />
@@ -47,12 +52,41 @@ export const Home = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						/>
+						<br />
+						<Button variant="btn btn-primary btn-lg" onClick={handleShow}>
+							View Resume
+						</Button>
+
+						<Modal
+							show={show}
+							size="lg"
+							onHide={handleClose}
+							dialogClassName="modal-150w"
+							className="modal">
+							<Modal.Header closeButton>
+								<Modal.Title>
+									<p className="modal-title">Resume</p>
+								</Modal.Title>
+							</Modal.Header>
+
+							<Modal.Body>
+								<div>
+									<img className="resume" src="https://i.imgur.com/5bStlUY.jpg" />
+								</div>
+							</Modal.Body>
+
+							<Modal.Footer>
+								<Button variant="primary" id="modal-button" onClick={handleClose}>
+									<p>Close</p>
+								</Button>
+							</Modal.Footer>
+						</Modal>
 					</div>
 				</div>
 				{/* Right side img */}
 				<div className="home-rcontainer">
 					<div className="home-rlimg">
-						<img className="home-img" src="https://www.webvillage.in/assets/img/about.gif" />
+						<img className="home-img" src="https://i.imgur.com/1APjIvj.gif" />
 					</div>
 				</div>
 			</div>
