@@ -56,6 +56,9 @@ export const Home = () => {
 						<Button variant="btn btn-primary btn-lg" onClick={handleShow} id="resume-button">
 							View Resume
 						</Button>
+						<Link to={"/contact"} type="button" className="btn btn-primary btn-lg" id="contact-me-button">
+							Contact Me
+						</Link>
 
 						<Modal
 							show={show}
