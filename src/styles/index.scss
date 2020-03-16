@@ -98,6 +98,7 @@
 .skills-rtext {
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 3%;
 }
 .skills-languages-top{
     max-height: 100px;
@@ -107,36 +108,48 @@
     margin-left: 25px;
     margin-right: 25px;
     opacity: 0.5;
+    filter: saturate(0);
 }
 .html5:hover {
     opacity: 1.0;
+    filter: saturate(1);
 }
 .css3 {
     max-height:75px;
     margin-left: 25px;
     margin-right: 25px;
     opacity: 0.5;
+    filter: saturate(0);
 }
 .css3:hover {
     opacity: 1.0;
+    filter: saturate(1);
 }
 .js {
     max-height:75px;
     margin-left: 25px;
     margin-right: 25px;
     opacity: 0.5;
+    filter: saturate(0);
+
 }
 .js:hover {
     opacity: 1.0;
+    filter: saturate(1);
+
 }
 .bootstrap {
     max-height:100px;
     margin-left: 20px;
     margin-right: 20px;
     opacity: 0.5;
+        filter: saturate(0);
+
 }
 .bootstrap:hover {
     opacity: 1.0;
+        filter: saturate(1);
+    
 }
 .react {
     max-height:100px;
@@ -144,9 +157,13 @@
     margin-right: 20px;
     margin-top: 20px;
     opacity: 0.5;
+            filter: saturate(0);
+
 }
 .react:hover {
     opacity: 1.0;
+            filter: saturate(1);
+
 }
 .restapi {
     max-height:100px;
@@ -154,9 +171,13 @@
     margin-right: 17px;
     margin-top: 20px;
     opacity: 0.5;
+                filter: saturate(0);
+
 }
 .restapi:hover {
     opacity: 1.0;
+                filter: saturate(1);
+
 }
 .postman {
     max-height:100px;
@@ -164,9 +185,13 @@
     margin-right: 17px;
     margin-top: 20px;
     opacity: 0.5;
+                    filter: saturate(0);
+
 }
 .postman:hover {
     opacity: 1.0;
+                    filter: saturate(1);
+
 }
 .github {
     max-height:75px;
@@ -174,9 +199,13 @@
     margin-right: 17px;
     margin-top: 27px;
     opacity: 0.5;
+                        filter: saturate(0);
+
 }
 .github:hover {
     opacity: 1.0;
+                        filter: saturate(1);
+
 }
 .python {
     max-height:95px;
@@ -184,9 +213,13 @@
     margin-right: 20px;
     margin-top: 27px;
     opacity: 0.5;
+                            filter: saturate(0);
+
 }
 .python:hover {
     opacity: 1.0;
+                            filter: saturate(1);
+
 }
 .nodejs {
     max-height:100px;
@@ -194,9 +227,14 @@
     margin-right: 20px;
     margin-top: 20px;
     opacity: 0.5;
+                                filter: saturate(0);
+
 }
 .nodejs:hover {
     opacity: 1.0;
+                                filter: saturate(1);
+
+    
 }
 .mysql {
     max-height:90px;
@@ -204,9 +242,13 @@
     margin-right: 25px;
     margin-top: 27px;
     opacity: 0.5;
+                                    filter: saturate(0);
+
 }
 .mysql:hover {
     opacity: 1.0;
+                                    filter: saturate(1);
+
 }
 .flask {
     max-height:75px;
@@ -214,7 +256,11 @@
     margin-right: 20px;
     margin-top: 30px;
     opacity: 0.5;
+                                        filter: saturate(0);
+
 }
 .flask:hover {
     opacity: 1.0;
+                                        filter: saturate(1);
+
 }
