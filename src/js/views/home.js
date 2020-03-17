@@ -95,6 +95,7 @@ export const Home = () => {
 				</div>
 			</div>
 			<Skills />
+			<br />
 			<Projects />
 		</div>
 	);

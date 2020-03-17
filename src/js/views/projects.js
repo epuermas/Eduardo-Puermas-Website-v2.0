@@ -1,17 +1,26 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
+import Card from "../component/card";
 
 export const Projects = () => {
 	return (
 		<div className="projects-container">
-			<div className="projects-container-child d-flex justify-content-center">
-				{/* Centered */}
-				<div className="projects-text">
-					<h1 className="skills-h1">Projects</h1>
-					<br />
-				</div>
-				<div className="projects-cards d-flex justify-content-around" />
+			<div className="projects-container-child d-flex                 justify-content-center">
+				<h1 className="skills-h1">Open Source Projects</h1>
+			</div>
+			<br />
+			<div className="projects-cards-top d-flex justify-content-around">
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+			</div>
+			<div className="projects-cards-bottom d-flex justify-content-around">
+				<Card />
+				<Card />
+				<Card />
+				<Card />
 			</div>
 		</div>
 	);

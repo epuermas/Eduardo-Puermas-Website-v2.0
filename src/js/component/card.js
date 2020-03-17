@@ -5,11 +5,11 @@ export const Card = () => {
 	return (
 		<div className="card-container">
 			<div className="card" style={{ width: "18rem" }}>
-				<img
+				{/* <img
 					src="https://image.shutterstock.com/image-vector/grunge-red-sample-word-round-260nw-1242668641.jpg"
 					className="card-img-top"
 					alt="..."
-				/>
+				/> */}
 				<div className="card-body">
 					<h5 className="card-title">Sample Card Title</h5>
 					<p className="card-text">
