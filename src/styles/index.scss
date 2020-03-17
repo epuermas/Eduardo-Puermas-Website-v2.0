@@ -28,6 +28,7 @@
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 3%;
+    margin-right: 0px;
 }
 .home-lsocial {
     margin-left: 3%;
@@ -59,6 +60,7 @@
 .home-rcontainer {
     max-height: 8%;
     margin-top: 2%;
+    margin-right: 3%;
 }
 .resume {
     position: relative;
@@ -75,8 +77,9 @@
     max-height: 39px;
 }
 // SKILLS
-.skills-img {
+.skills-lrcontainer{
     margin-top: 2%;
+    margin-right: 3%;
 }
 .skills-h1 {
     font-size: 40px;
@@ -108,9 +111,6 @@
     margin-bottom: auto;
     margin-right: 2%;
 }
-// .skills-languages-top{
-//     max-height: 100px;
-// }
 .html5 {
     max-height:75px;
     margin-left: 25px;
@@ -291,4 +291,12 @@
 .view-repo-button {
     margin-top: auto;
     margin-bottom: 0%;
+}
+.card-body:link {
+  text-decoration: none;
+    color: black;
+}
+.card-body:visited {
+  text-decoration: none;
+    color: black;
 }

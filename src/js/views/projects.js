@@ -15,7 +15,7 @@ export const Projects = () => {
 			<br />
 			<div className="more-projects d-flex                 justify-content-center">
 				<button
-					className="more-projects-button btn btn-secondary btn-lg"
+					className="more-projects-button btn btn-primary btn-lg"
 					target="_blank"
 					rel="noopener noreferrer">
 					More Projects

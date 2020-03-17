@@ -15,17 +15,17 @@ export const Card = () => {
 					className="card-img-top"
 					alt="..."
 				/> */}
-						<div className="card-body">
+						<a className="card-body" type="button" href={e.url} target="_blank" rel="noopener noreferrer">
 							<h5 className="card-title">{e.title}</h5>
 							<p className="card-text">{e.description}</p>
-							<a
+							{/* <a
 								href={e.url}
 								target="_blank"
 								rel="noopener noreferrer"
 								className="view-repo-button btn btn-primary">
 								View Repository
-							</a>
-						</div>
+							</a> */}
+						</a>
 					</div>
 				))}
 		</div>

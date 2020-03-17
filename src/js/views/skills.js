@@ -5,9 +5,9 @@ import { Context } from "../store/appContext";
 export const Skills = () => {
 	return (
 		<div className="skills-container">
-			<div className="skills-rcontainer d-flex justify-content-center">
+			<div className="skills-container d-flex justify-content-center">
 				{/* Left side img */}
-				<div className="skills-lcontainer">
+				<div className="skills-lrcontainer">
 					<div className="skills-limg">
 						<img className="skills-img" src="https://i.imgur.com/IzHZHkK.gif" />
 					</div>

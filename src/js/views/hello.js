@@ -89,7 +89,7 @@ export const Hello = () => {
 				</div>
 				{/* Right side img */}
 				<div className="home-rcontainer">
-					<div className="home-rlimg">
+					<div className="home-rimg">
 						<img className="home-img" src="https://i.imgur.com/1APjIvj.gif" />
 					</div>
 				</div>
