@@ -7,7 +7,7 @@ export const Projects = () => {
 	return (
 		<div className="projects-container">
 			<div className="projects-container-child d-flex                 justify-content-center">
-				<h1 className="skills-h1">Open Source Projects</h1>
+				<h1 className="projects-h1">Open Source Projects</h1>
 			</div>
 			<br />
 			<div className="projects-cards-top d-flex justify-content-around">
