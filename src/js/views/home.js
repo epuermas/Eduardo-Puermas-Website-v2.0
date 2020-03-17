@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
 import { Skills } from "./skills";
 import { Modal, Button } from "react-bootstrap";
+import { Projects } from "./projects";
 
 export const Home = () => {
 	const [lgShow, setLgShow] = useState(false);
@@ -94,6 +95,7 @@ export const Home = () => {
 				</div>
 			</div>
 			<Skills />
+			<Projects />
 		</div>
 	);
 };
