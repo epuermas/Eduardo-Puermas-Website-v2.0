@@ -27,6 +27,7 @@
 .home-ltext {
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 3%;
 }
 .home-lsocial {
     margin-left: 3%;
@@ -107,9 +108,9 @@
     margin-bottom: auto;
     margin-right: 2%;
 }
-.skills-languages-top{
-    max-height: 100px;
-}
+// .skills-languages-top{
+//     max-height: 100px;
+// }
 .html5 {
     max-height:75px;
     margin-left: 25px;
@@ -150,12 +151,12 @@
     margin-left: 20px;
     margin-right: 20px;
     opacity: 0.5;
-        filter: saturate(0);
+    filter: saturate(0);
 
 }
 .bootstrap:hover {
     opacity: 1.0;
-        filter: saturate(1);
+    filter: saturate(1);
     
 }
 .react {
@@ -164,12 +165,12 @@
     margin-right: 20px;
     margin-top: 20px;
     opacity: 0.5;
-            filter: saturate(0);
+    filter: saturate(0);
 
 }
 .react:hover {
     opacity: 1.0;
-            filter: saturate(1);
+    filter: saturate(1);
 
 }
 .restapi {
@@ -178,12 +179,12 @@
     margin-right: 17px;
     margin-top: 20px;
     opacity: 0.5;
-                filter: saturate(0);
+    filter: saturate(0);
 
 }
 .restapi:hover {
     opacity: 1.0;
-                filter: saturate(1);
+    filter: saturate(1);
 
 }
 .postman {
@@ -192,12 +193,12 @@
     margin-right: 17px;
     margin-top: 20px;
     opacity: 0.5;
-                    filter: saturate(0);
+    filter: saturate(0);
 
 }
 .postman:hover {
     opacity: 1.0;
-                    filter: saturate(1);
+    filter: saturate(1);
 
 }
 .github {
@@ -206,12 +207,12 @@
     margin-right: 17px;
     margin-top: 27px;
     opacity: 0.5;
-                        filter: saturate(0);
+    filter: saturate(0);
 
 }
 .github:hover {
     opacity: 1.0;
-                        filter: saturate(1);
+    filter: saturate(1);
 
 }
 .python {
@@ -220,12 +221,12 @@
     margin-right: 20px;
     margin-top: 27px;
     opacity: 0.5;
-                            filter: saturate(0);
+    filter: saturate(0);
 
 }
 .python:hover {
     opacity: 1.0;
-                            filter: saturate(1);
+    filter: saturate(1);
 
 }
 .nodejs {
@@ -234,12 +235,12 @@
     margin-right: 20px;
     margin-top: 20px;
     opacity: 0.5;
-                                filter: saturate(0);
+    filter: saturate(0);
 
 }
 .nodejs:hover {
     opacity: 1.0;
-                                filter: saturate(1);
+    filter: saturate(1);
 
     
 }
@@ -249,12 +250,12 @@
     margin-right: 25px;
     margin-top: 27px;
     opacity: 0.5;
-                                    filter: saturate(0);
+    filter: saturate(0);
 
 }
 .mysql:hover {
     opacity: 1.0;
-                                    filter: saturate(1);
+    filter: saturate(1);
 
 }
 .flask {
@@ -263,11 +264,11 @@
     margin-right: 20px;
     margin-top: 30px;
     opacity: 0.5;
-                                        filter: saturate(0);
+    filter: saturate(0);
 
 }
 .flask:hover {
     opacity: 1.0;
-                                        filter: saturate(1);
+    filter: saturate(1);
 
 }

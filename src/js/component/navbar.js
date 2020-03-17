@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Projects } from "../views/projects";
 
-import epLogo from "../../img/ep-logo.png";
-
 export const Navbar = () => {
 	return (
 		<div clasName="navbar-container">
