@@ -12,15 +12,6 @@ export const Projects = () => {
 			<br />
 			<div className="projects-cards-top d-flex justify-content-around">
 				<Card />
-				<Card />
-				<Card />
-				<Card />
-			</div>
-			<div className="projects-cards-bottom d-flex justify-content-around">
-				<Card />
-				<Card />
-				<Card />
-				<Card />
 			</div>
 		</div>
 	);
