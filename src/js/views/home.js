@@ -6,6 +6,7 @@ import { Skills } from "./skills";
 import { Modal, Button } from "react-bootstrap";
 import { Projects } from "./projects";
 import { Hello } from "./hello";
+import { Contact } from "./contact";
 
 export const Home = () => {
 	// const [lgShow, setLgShow] = useState(false);
@@ -19,6 +20,8 @@ export const Home = () => {
 			<Skills />
 			<br />
 			<Projects />
+			<br />
+			<Contact />
 		</div>
 	);
 };
