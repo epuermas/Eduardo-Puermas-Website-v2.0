@@ -47,9 +47,9 @@ export const Hello = () => {
 							rel="noopener noreferrer"
 						/>
 						<i
-							className="fab fa-instagram-square"
-							href="http://instagram.com/eddy_prms"
-							id="instagram"
+							className="fab fa-twitter-square"
+							href="https://twitter.com/Eddy_Prms"
+							id="twitter"
 							target="_blank"
 							rel="noopener noreferrer"
 						/>

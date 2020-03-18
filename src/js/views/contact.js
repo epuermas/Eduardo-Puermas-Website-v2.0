@@ -15,10 +15,40 @@ export const Contact = () => {
 						<br />
 					</h4>
 					<h2 className="contact-info">
-						+1-786-317-8698
+						786-317-8698
 						<br />
 						eduardopuermas@hotmail.com
 					</h2>
+					<div className="home-lsocial">
+						<i
+							className="fab fa-github-square"
+							href="https://github.com/epuermas"
+							id="github"
+							target="_blank"
+							rel="noopener noreferrer"
+						/>
+						<i
+							className="fab fa-linkedin"
+							href="https://www.linkedin.com/in/epuermas/"
+							id="linkedin"
+							target="_blank"
+							rel="noopener noreferrer"
+						/>
+						<i
+							className="fab fa-facebook-square"
+							href="https://www.facebook.com/HeartagramEd"
+							id="facebook"
+							target="_blank"
+							rel="noopener noreferrer"
+						/>
+						<i
+							className="fab fa-twitter-square"
+							href="https://twitter.com/Eddy_Prms"
+							id="twitter"
+							target="_blank"
+							rel="noopener noreferrer"
+						/>
+					</div>
 				</div>
 				{/* Left side img */}
 				<div className="contact-lrcontainer">
