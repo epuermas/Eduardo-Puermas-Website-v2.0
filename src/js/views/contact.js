@@ -11,7 +11,7 @@ export const Contact = () => {
 				<div className="contact-rtext">
 					<h1 className="contact-h1">Contact Me ☎️</h1>
 					<h4 className="contact-h2">
-						To discuss a project or just want to say hi, my inbox is open for all.
+						To discuss a project or just want to say hi, my inbox is open for all:
 						<br />
 					</h4>
 					<h2 className="contact-info">
@@ -51,7 +51,7 @@ export const Contact = () => {
 					</div>
 				</div>
 				{/* Left side img */}
-				<div className="contact-lrcontainer">
+				<div className="linkedin-badge contact-lrcontainer">
 					<div className="contact-limg">
 						<img className="contact-img" src="https://i.imgur.com/NJQT0Ue.gif" />
 					</div>

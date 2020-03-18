@@ -53,7 +53,6 @@ export const Hello = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						/>
-						<br />
 						<Button variant="btn btn-primary btn-lg" onClick={handleShow} id="resume-button">
 							View Resume
 						</Button>
