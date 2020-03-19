@@ -14,12 +14,13 @@ export const Projects = () => {
 			</div>
 			<br />
 			<div className="more-projects d-flex                 justify-content-center">
-				<button
+				<a
 					className="more-projects-button btn btn-primary btn-lg"
+					href="https://github.com/epuermas?tab=repositories"
 					target="_blank"
 					rel="noopener noreferrer">
 					More Projects
-				</button>
+				</a>
 			</div>
 		</div>
 	);

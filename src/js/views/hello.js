@@ -25,34 +25,35 @@ export const Hello = () => {
 						in a team environmnt
 					</h4>
 					<div className="home-lsocial">
-						<i
+						<a
 							className="fab fa-github-square"
 							href="https://github.com/epuermas"
 							id="github"
 							target="_blank"
 							rel="noopener noreferrer"
 						/>
-						<i
+						<a
 							className="fab fa-linkedin"
 							href="https://www.linkedin.com/in/epuermas/"
 							id="linkedin"
 							target="_blank"
 							rel="noopener noreferrer"
 						/>
-						<i
+						<a
 							className="fab fa-facebook-square"
 							href="https://www.facebook.com/HeartagramEd"
 							id="facebook"
 							target="_blank"
 							rel="noopener noreferrer"
 						/>
-						<i
+						<a
 							className="fab fa-twitter-square"
 							href="https://twitter.com/Eddy_Prms"
 							id="twitter"
 							target="_blank"
 							rel="noopener noreferrer"
 						/>
+						<br />
 						<Button variant="btn btn-primary btn-lg" onClick={handleShow} id="resume-button">
 							View Resume
 						</Button>
