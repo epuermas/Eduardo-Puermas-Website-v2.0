@@ -19,7 +19,7 @@ export const Contact = () => {
 						<br />
 						eduardopuermas@hotmail.com
 					</h2>
-					<div className="home-lsocial">
+					<div className="contact-lsocial">
 						<a
 							className="fab fa-github-square"
 							href="https://github.com/epuermas"
