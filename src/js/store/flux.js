@@ -30,11 +30,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 					url: "https://github.com/epuermas/Interactive-Traffic-Light"
 				},
 				// SECONDS COUNTER
-				{
-					title: "Seconds Counter",
-					description: "Code that triggers a seconds counter as soon as the page refreshes.",
-					url: "https://github.com/epuermas/Seconds-Counter"
-				},
+				// {
+				// 	title: "Seconds Counter",
+				// 	description: "Code that triggers a seconds counter as soon as the page refreshes.",
+				// 	url: "https://github.com/epuermas/Seconds-Counter"
+				// },
 				// RANDOM CARD GENERATOR
 				{
 					title: "Random-Card Generator",
