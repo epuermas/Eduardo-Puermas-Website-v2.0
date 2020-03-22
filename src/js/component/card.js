@@ -4,7 +4,7 @@ import { Context } from "../store/appContext";
 
 export const Card = () => {
 	const { store, actions } = useContext(Context);
-	console.log("data", store.cards);
+	// console.log(store.cards);
 	return (
 		<div className="card-container d-flex justify-content-around">
 			{store.cards &&

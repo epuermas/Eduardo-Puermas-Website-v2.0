@@ -53,6 +53,13 @@ export const Hello = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						/>
+						<a
+							className="fab fa-instagram-square"
+							href="https://www.instagram.com/eddy_prms/"
+							id="instagram"
+							target="_blank"
+							rel="noopener noreferrer"
+						/>
 						<br />
 						<Button variant="btn btn-primary btn-lg" onClick={handleShow} id="resume-button">
 							View Resume
