@@ -21,8 +21,8 @@ export const Hello = () => {
 						Dedicated web developer constantly learning <br /> and using the latest front-end and back-end
 						technologies. <br />
 						<br />
-						Excited about opportunities where experience can best be leveraged towards working on projects
-						in a team environmnt
+						Excited about opportunities where experience can best <br />
+						be leveraged towards working on projects in a team environment
 					</h4>
 					<div className="home-lsocial">
 						<a
