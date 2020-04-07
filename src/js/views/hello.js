@@ -46,13 +46,13 @@ export const Hello = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						/>
-						<a
+						{/* <a
 							className="fab fa-twitter-square"
 							href="https://twitter.com/Eddy_Prms"
 							id="twitter"
 							target="_blank"
 							rel="noopener noreferrer"
-						/>
+						/> */}
 						<a
 							className="fab fa-instagram-square"
 							href="https://www.instagram.com/eddy_prms/"

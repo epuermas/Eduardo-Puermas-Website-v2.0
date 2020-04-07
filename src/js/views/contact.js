@@ -47,13 +47,13 @@ export const Contact = () => {
 									target="_blank"
 									rel="noopener noreferrer"
 								/>
-								<a
+								{/* <a
 									className="fab fa-twitter-square"
 									href="https://twitter.com/Eddy_Prms"
 									id="twitter"
 									target="_blank"
 									rel="noopener noreferrer"
-								/>
+								/> */}
 							</div>
 						</div>
 					</div>
