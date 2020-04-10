@@ -9,5 +9,6 @@ export const Footer = () => (
 				Eduardo Puermas
 			</a>
 		</p>
+		<p className="copyright-info">© 2020 Copyright Eduardo Puermas</p>
 	</footer>
 );
