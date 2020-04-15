@@ -25,9 +25,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 				},
 				// TRAFFIC LIGHT
 				{
-					title: "Interactive Traffic Light",
-					description: "Code that prints an interactive traffic light, onlick user can turn on lights.",
-					url: "https://github.com/epuermas/Interactive-Traffic-Light"
+					title: "Basic Website Template",
+					description:
+						"Code that prints a basic-website layout, allowing users to edit and personalize for future deployment.",
+					url: "https://github.com/epuermas/Basic-Website-Template"
 				},
 				// SECONDS COUNTER
 				// {
