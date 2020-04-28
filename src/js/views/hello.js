@@ -12,7 +12,7 @@ export const Hello = () => {
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
 	return (
-		<div className="home-container">
+		<div className="hello-container">
 			{/* Left side text */}
 			<div className="home-lcontainer d-flex justify-content-center">
 				<div className="home-ltext">

@@ -24,11 +24,21 @@
     color: white;
 }
 // HOME
+.home-lcontainer {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2%;
+}
+.home-container {
+    margin: auto;
+    max-width: 1000px;
+}
 .home-ltext {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 3%;
     margin-right: 0px;
+    min-width: 600px;
 }
 .home-lsocial {
     margin-left: 3%;
