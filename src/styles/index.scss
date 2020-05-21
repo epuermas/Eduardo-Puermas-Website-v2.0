@@ -93,6 +93,93 @@
 #modal-button {
     max-height: 39px;
 }
+//ABOUT
+.about-container {
+ text-align: center;
+ margin-top: 1%;
+ margin-bottom: 1%;
+}
+.about-h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.about-p {
+    color: grey;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    min-width: 1000px;
+}
+h5 {
+    font-size: 12pt;
+    color: grey;
+}
+//MARKETSOURCE
+.prior-exp-container {
+    margin-top: 2%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.marketsource {
+    max-width: 400px;
+    margin-right: 100px;
+    color: grey;
+}
+.marketsource-img {
+    border-radius: 50%;
+    max-height: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 3%;
+}
+.marketsource-text {
+    font-size: 10pt;
+}
+//CARNIVAL
+.carnival {
+    max-width: 400px;
+    margin-right: 100px;
+    color: grey;
+}
+.carnival-img {
+    border-radius: 50%;
+    max-height: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 3%;
+}
+.carnival-text {
+    font-size: 10pt;
+}
+//SM LAW
+.smlaw {
+    max-width: 400px;
+    margin-right: 100px;
+    color: grey;
+}
+.smlaw-img {
+    border-radius: 50%;
+    max-height: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 3%;
+}
+.smlaw-text {
+    font-size: 10pt;
+}
+//JS
+.javascript {
+    max-width: 400px;
+    color: grey;
+}
+.javascript-img {
+    border-radius: 50%;
+    max-height: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 3%;
+}
+.javascript-text {
+    font-size: 10pt;
+}
 // SKILLS
 .skills-lrcontainer{
     margin-top: 2%;
