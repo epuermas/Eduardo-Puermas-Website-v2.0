@@ -25,6 +25,11 @@ export const Navbar = () => {
 				<div className="collapse navbar-collapse">
 					<ul className="navbar-nav">
 						<li className="nav-item">
+							<Link to={"/about"} className="nav-link" href="">
+								About Me
+							</Link>
+						</li>
+						<li className="nav-item">
 							<Link to={"/skills"} className="nav-link" href="">
 								Skills
 							</Link>
