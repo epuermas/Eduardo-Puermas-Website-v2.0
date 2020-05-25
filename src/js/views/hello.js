@@ -18,12 +18,9 @@ export const Hello = () => {
 				<div className="home-ltext">
 					<h1 className="home-h1">Hello, my name is Eddy 👋🏻</h1>
 					<h4 className="home-h2">
-						Dedicated web developer constantly learning <br /> and using the latest front-end and back-end
-						technologies. <br />
+						Full-Stack Web Developer
 						<br />
-						Excited about opportunities where experience can
-						<br />
-						best be leveraged towards working on projects in a team environment.
+						Based in Miami, FL
 					</h4>
 					<div className="home-lsocial">
 						<a
