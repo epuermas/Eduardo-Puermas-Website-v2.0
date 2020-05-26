@@ -7,6 +7,7 @@ import { Modal, Button } from "react-bootstrap";
 import { Projects } from "./projects";
 import { Hello } from "./hello";
 import { Contact } from "./contact";
+import { About } from "./aboutme";
 
 export const Home = () => {
 	// const [lgShow, setLgShow] = useState(false);
