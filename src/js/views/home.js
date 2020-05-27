@@ -18,6 +18,8 @@ export const Home = () => {
 		<div className="home-container">
 			<Hello />
 			<br />
+			<About />
+			<br />
 			<Skills />
 			<br />
 			<Projects />
