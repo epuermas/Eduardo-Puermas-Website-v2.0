@@ -21,7 +21,7 @@ export const Contact = () => {
 							<h2 className="contact-info">
 								Eduardo Puermas
 								<br />
-								786-317-8698
+								786-408-5014
 								<br />
 								eduardopuermas@hotmail.com
 							</h2>
