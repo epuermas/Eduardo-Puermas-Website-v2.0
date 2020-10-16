@@ -33,7 +33,7 @@ export const Skills = () => {
 						<img className="js" src="https://i.ya-webdesign.com/images/vector-javascript-1.png" />
 						<img
 							className="react"
-							src="https://www.fullstacklabs.co/img/pages/DeveloperProfile/technologyLogos/tech_react.png"
+							src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
 						/>
 
 						<img className="restapi" src="https://i.imgur.com/ri0FMgm.png" />
