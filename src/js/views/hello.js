@@ -80,7 +80,7 @@ export const Hello = () => {
 
 							<Modal.Body>
 								<div>
-									<img className="resume" src="https://i.imgur.com/0ogorHT.jpg" />
+									<img className="resume" src="https://i.imgur.com/TTsZ9H0.jpg" />
 								</div>
 							</Modal.Body>
 
