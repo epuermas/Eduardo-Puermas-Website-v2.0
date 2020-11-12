@@ -25,10 +25,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 				},
 				// TRAFFIC LIGHT
 				{
-					title: "Basic Website Template",
+					title: "Contact Management App",
 					description:
-						"Code that prints a basic-website layout, allowing users to edit and personalize for future deployment.",
-					url: "https://github.com/epuermas/Basic-Website-Template"
+						"Contact management web-app that allows users to add, edit, and delete contacts off the list obtained using an API.",
+					url: "https://github.com/epuermas/Contact-Management-App"
 				},
 				// SECONDS COUNTER
 				// {
