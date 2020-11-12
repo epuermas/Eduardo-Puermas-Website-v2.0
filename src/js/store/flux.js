@@ -11,17 +11,17 @@ const getState = ({ getStore, getActions, setStore }) => {
 				},
 				// CONTACT LIST
 				{
-					title: "Interactive Contact List",
+					title: "SuperGig",
 					description:
-						"Code that prints an interactive contact list allowing the user to add, edit, and delete contacts using an API.",
-					url: "https://github.com/epuermas/Functional-ContactList"
+						"Website that allows users to post short-term gigs. Job seekers can then go on the website and review the jobs available and contact the posting user if they wish to complete them.",
+					url: "https://github.com/epuermas/SuperGig-FrontEnd"
 				},
 				// TO-DO LIST
 				{
-					title: "Interactive To-Do List",
+					title: "Personal Website",
 					description:
-						"Code that prints an interactive to-do list allowing the user to add and delete tasks.",
-					url: "https://github.com/epuermas/To-do-List"
+						"Personal website shows skills, projects, and contact info. Built using ReactJs, Bootstrap, CSS & npm Libraries.",
+					url: "https://github.com/epuermas/Eduardo-Puermas-Website-v2.0"
 				},
 				// TRAFFIC LIGHT
 				{
