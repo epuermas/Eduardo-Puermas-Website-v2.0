@@ -10,7 +10,6 @@ import { Contact } from "./contact";
 import { About } from "./aboutme";
 
 export const Home = () => {
-	// const [lgShow, setLgShow] = useState(false);
 	// const [show, setShow] = useState(false);
 	// const handleClose = () => setShow(false);
 	// const handleShow = () => setShow(true);
